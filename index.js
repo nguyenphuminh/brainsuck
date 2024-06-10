@@ -100,7 +100,7 @@ const server = http.createServer((req, res) => {
         codePointer++;
     }
 
-    res.writeHead(200, { "Content-Type": "text/plain" });
+    res.writeHead(200, { "Content-Type": "text/html" });
     res.end(output);
 
     writeFileSync("./memory.json", JSON.stringify(memory));
