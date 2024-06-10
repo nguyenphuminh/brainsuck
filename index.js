@@ -25,10 +25,19 @@ const server = http.createServer((req, res) => {
             case "+":
                 memory[memPointer]++;
 
+                if (memory[memPointer] > 255) {
+                    memory[memPointer] = 0;
+                }
+
                 break;
 
             case "-":
                 memory[memPointer]--;
+
+                if (memory[memPointer] < 0) {
+                    memory[memPointer] = 255;
+                }
+
                 break;
 
             case ">":

@@ -16,7 +16,7 @@ It still has 8 commands like what you would expect from normal brainfuck:
 * `[`: If current memory slot is 0, jump to `]`.
 * `]`: If current memory slot is not 0, jump to `[`.
 
-Each memory slot is not limited to 1 byte, and you can change the amount of memory slots in `config.json`.
+You can change the amount of memory slots in `config.json`.
 
 ### Handling requests
 
