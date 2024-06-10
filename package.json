@@ -1,0 +1,27 @@
+{
+  "name": "brainsuck",
+  "version": "0.1.0",
+  "description": "A runtime for Brainfuck that allows backend web development :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenphuminh/brainsuck.git"
+  },
+  "keywords": [
+    "brainfuck",
+    "runtime",
+    "http",
+    "library",
+    "framework",
+    "backend"
+  ],
+  "author": "nguyenphuminh",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nguyenphuminh/brainsuck/issues"
+  },
+  "homepage": "https://github.com/nguyenphuminh/brainsuck#readme"
+}
